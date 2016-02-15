@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.kaosboxinstall" name="KAOSbox Install" version="3.0.1" provider-name="KAOSbox">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KAOSbox Install</summary>
+    <description lang="en">Installeer KAOSbox, Fixes, Add-ons en meer. Voor diverse GRATIS images - kijk op www.kaosbox.tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>

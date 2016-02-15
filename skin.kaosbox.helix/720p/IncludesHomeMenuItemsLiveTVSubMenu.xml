@@ -1,0 +1,65 @@
+<includes>
+    <include name="StandardEPG">
+		<control type="button" id="90144">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19069</label>
+			<onclick>ActivateWindow(TVGuide)</onclick>
+		</control>
+	</include>
+    <include name="StandardRecordings">
+		<control type="button" id="90145">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19163</label>
+			<onclick>ActivateWindow(TVRecordings)</onclick>
+		</control>
+	</include>
+    <include name="StandardTimer">
+		<control type="button" id="90146">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19040</label>
+			<onclick>ActivateWindow(TVTimers)</onclick>
+		</control>
+	</include>
+    <include name="XNEWAEPG">
+		<control type="button" id="90144">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19069</label>
+			<onclick>RunAddon(script.xbmc.x-newa, epg)</onclick>
+		</control>
+	</include>
+    <include name="XNEWARecordings">
+		<control type="button" id="90145">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19163</label>
+			<onclick>RunAddon(script.xbmc.x-newa, recordings)</onclick>
+		</control>
+	</include>
+    <include name="XNEWATimer">
+		<control type="button" id="90146">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>30008</label>
+			<onclick>RunAddon(script.xbmc.x-newa, upcoming)</onclick>
+		</control>
+	</include>
+    <include name="XNEWASchedules">
+		<control type="button" id="90147">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>30009</label>
+			<onclick>RunAddon(script.xbmc.x-newa, schedules)</onclick>
+		</control>
+	</include>
+    <include name="XNEWAWebClient">
+		<control type="button" id="90148">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>30007</label>
+			<onclick>RunAddon(script.xbmc.x-newa, webclient)</onclick>
+		</control>
+	</include>
+    <include name="XNEWADashboard">
+		<control type="button" id="90149">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>30010</label>
+			<onclick>RunAddon(script.xbmc.x-newa)</onclick>
+		</control>
+	</include>
+</includes>

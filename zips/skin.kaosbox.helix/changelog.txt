@@ -1,0 +1,44 @@
+v.3.0.2
+- New Images
+- New Wallpaper
+- New Icons
+
+
+v.3.0.1
+- Use separate background in Home
+- Show weather widget in Home
+- Enable/Disable Search Button in Home
+
+v.2.1.0
+- Modern theme updated
+
+v.2.0.5
+- Speed improvements
+
+v.2.0.2
+- Updated a lot of graphics
+
+v.2.0.0
+- New wallpaper & graphics
+
+v.1.1.0
+- Modern mod
+
+v.1.0.8
+- Films & Series op voorpagina
+
+v.1.0.7
+- Flat mod
+
+v.1.0.4
+- Music + Video's add-on link change
+
+v.1.0.3
+- Favourites
+- code cleanup
+
+v.1.0.1
+- Updated Graphics
+
+v.1.0.0
+- initial conversion for Helix

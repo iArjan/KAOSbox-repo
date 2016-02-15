@@ -1,0 +1,5 @@
+1.0.7 - Series Alphabetically
+1.0.6 - HD movies fixed
+1.0.1 - First Version
+
+

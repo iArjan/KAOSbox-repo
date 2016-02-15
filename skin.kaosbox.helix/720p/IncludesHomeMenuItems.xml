@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="HomeSubMenuVideos">
+		<control type="image" id="90101">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+                <control type="button" id="90102">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Favorieten Films</label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=movies_favourites&quot;,return)</onclick>
+			<visible>!Skin.HasSetting(favourite6)</visible>
+		</control>
+		<control type="button" id="90103">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Skin.String(CustomFavourite6.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite6.Path)]</onclick>
+			<visible>Skin.HasSetting(favourite6)</visible>
+		</control>
+		<control type="button" id="90104">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Favorieten Series</label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.video.genesis/?action=shows_favourites&quot;,return)</onclick>
+			<visible>!Skin.HasSetting(favourite7)</visible>
+		</control>
+		<control type="button" id="90105">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Skin.String(CustomFavourite7.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite7.Path)]</onclick>
+			<visible>Skin.HasSetting(favourite7)</visible>
+		</control>
+		<control type="button" id="90106">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Skin.String(CustomFavourite8.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite8.Path)]</onclick>
+			<visible>Skin.HasSetting(favourite8)</visible>
+		</control>
+		<control type="button" id="90107">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>20389</label>
+			<onclick>ActivateWindow(Videos,MusicVideoTitles,return)</onclick>
+			<visible>Library.HasContent(MusicVideos)</visible>
+		</control>
+		<control type="button" id="90108">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>744</label>
+			<onclick>ActivateWindow(Videos,Files,return)</onclick>
+		</control>
+		<control type="button" id="90109">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>14022</label>
+			<onclick>ActivateWindow(Videos,Root)</onclick>
+			<visible>Library.HasContent(Video)</visible>
+		</control>
+		<control type="image" id="90111">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuMovies">
+		<control type="image" id="90161">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90162">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>31328</label>
+			<onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
+		</control>
+		<control type="button" id="90163">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>20434</label>
+			<onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
+			<visible>Library.HasContent(MovieSets)</visible>
+		</control>
+		<control type="button" id="90164">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>369</label>
+			<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
+		</control>
+		<control type="button" id="90165">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>135</label>
+			<onclick>ActivateWindow(Videos,MovieGenres,return)</onclick>
+		</control>
+		<control type="button" id="90166">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>652</label>
+			<onclick>ActivateWindow(Videos,MovieYears,return)</onclick>
+		</control>
+		<control type="button" id="90167">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>344</label>
+			<onclick>ActivateWindow(Videos,MovieActors,return)</onclick>
+		</control>
+		<control type="image" id="90168">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuTVShows">
+		<control type="image" id="90171">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90172">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>31328</label>
+			<onclick>ActivateWindow(Videos,RecentlyAddedEpisodes,return)</onclick>
+		</control>
+		<control type="button" id="90173">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>369</label>
+			<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
+		</control>
+		<control type="button" id="90174">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>135</label>
+			<onclick>ActivateWindow(Videos,TVShowGenres,return)</onclick>
+		</control>
+		<control type="button" id="90175">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>652</label>
+			<onclick>ActivateWindow(Videos,TVShowYears,return)</onclick>
+		</control>
+		<control type="button" id="90176">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>344</label>
+			<onclick>ActivateWindow(Videos,TVShowActors,return)</onclick>
+		</control>
+		<control type="image" id="90177">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuMusic">
+		<control type="image" id="90112">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+
+
+
+
+		<control type="button" id="90113">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Muziek Audio</label>
+			<onclick>ActivateWindow(10501,&quot;plugin://plugin.program.super.favourites/?label=Muziek Audio&amp;mode=400&amp;path=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FMuziek%20Audio&quot;,return)</onclick>
+			<visible>!Skin.HasSetting(favourite9)</visible>
+		</control>
+		<control type="button" id="90114">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Skin.String(CustomFavourite9.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite9.Path)]</onclick>
+			<visible>Skin.HasSetting(favourite9)</visible>
+		</control>
+		<control type="button" id="90115">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Muziek Video</label>
+			<onclick>ActivateWindow(10501,&quot;plugin://plugin.program.super.favourites/?label=Muziek Video&amp;mode=400&amp;path=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FMuziek%20Video&quot;,return)</onclick>
+			<visible>!Skin.HasSetting(favourite10)</visible>
+		</control>
+		<control type="button" id="90116">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Skin.String(CustomFavourite10.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite10.Path)]</onclick>
+			<visible>Skin.HasSetting(favourite10)</visible>
+		</control>
+		<control type="button" id="90117">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Spotify</label>
+			<onclick>RunScript(script.audio.spotimc)</onclick>
+			<visible>!Skin.HasSetting(favourite11)</visible>
+		</control>
+		<control type="button" id="90118">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Skin.String(CustomFavourite11.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite11.Path)]</onclick>
+			<visible>Skin.HasSetting(favourite11)</visible>
+		</control>
+
+
+		<control type="button" id="90119">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>744</label>
+			<onclick>ActivateWindow(MusicFiles)</onclick>
+		</control>
+	
+
+		<control type="image" id="90121">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuSystem">
+		<control type="image" id="90122">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90123">
+			<enable>System.HasAddon(script.kaosboxtools)</enable>
+			<visible>System.HasAddon(script.kaosboxtools)</visible>
+			<include>ButtonHomeSubCommonValues</include>
+			<label>KAOSbox Tools</label>
+			<onclick>RunPlugin(plugin://script.kaosboxtools)</onclick>
+		</control>
+		<control type="button" id="90124">
+			<enable>System.HasAddon(service.openelec.settings)</enable>
+			<visible>System.HasAddon(service.openelec.settings)</visible>
+			<include>ButtonHomeSubCommonValues</include>
+			<label>OpenELEC Settings</label>
+			<onclick>RunAddon(service.openelec.settings)</onclick>
+		</control>
+		<control type="button" id="90125">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>7</label>
+			<onclick>ActivateWindow(FileManager)</onclick>
+		</control>
+		<control type="button" id="90126">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>13200</label>
+			<onclick>ActivateWindow(Profiles)</onclick>
+		</control>
+		<control type="button" id="90127">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>130</label>
+			<onclick>ActivateWindow(SystemInfo)</onclick>
+		</control>
+
+
+		<control type="button" id="90128">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>Programma's</label>
+			<onclick>ActivateWindow(Programs,Addons)</onclick>
+		</control>
+
+
+		<control type="image" id="90130">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuPlayDisc">
+		<control type="image" id="90131">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90132">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>13391</label>
+			<onclick>SetFocus(9000)</onclick>
+			<onclick>EjectTray()</onclick>
+		</control>
+		<control type="image" id="90130">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuPictures">
+		<control type="image" id="90147">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90148">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>24001</label>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+		</control>
+		<control type="image" id="90149">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuTV">
+		<control type="image" id="90141">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90143">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19019</label>
+			<onclick>ActivateWindow(TVChannels)</onclick>
+		</control>
+		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWAEPG)">StandardEPG</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAEPG)">XNEWAEPG</include>
+		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + [!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWARecordings)]">StandardRecordings</include>
+		<include condition="!Skin.HasSetting(HomeMenuNoRecordings) + System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWARecordings)">XNEWARecordings</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWADashboard)">XNEWADashboard</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWAWebClient)">XNEWAWebClient</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWASchedules)">XNEWASchedules</include>
+		<include condition="!System.HasAddon(script.xbmc.x-newa) | !Skin.HasSetting(UseNEWATimer)">StandardTimer</include>
+		<include condition="System.HasAddon(script.xbmc.x-newa) + Skin.HasSetting(UseNEWATimer)">XNEWATimer</include>
+		<control type="button" id="90150">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>137</label>
+			<onclick>ActivateWindow(TVSearch)</onclick>
+		</control>
+		<control type="image" id="90151">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+	<include name="HomeSubMenuRadio">
+		<control type="image" id="90141">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
+		</control>
+		<control type="button" id="90243">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19019</label>
+			<onclick>ActivateWindow(RadioChannels)</onclick>
+		</control>
+		<control type="button" id="90244">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19069</label>
+			<onclick>ActivateWindow(RadioGuide)</onclick>
+		</control>
+		<control type="button" id="90245">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19163</label>
+			<onclick>ActivateWindow(RadioRecordings)</onclick>
+		</control>
+		<control type="button" id="90246">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>19040</label>
+			<onclick>ActivateWindow(RadioTimers)</onclick>
+		</control>
+		<control type="button" id="90247">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>137</label>
+			<onclick>ActivateWindow(RadioSearch)</onclick>
+		</control>
+		<control type="image" id="90248">
+			<width>35</width>
+			<height>35</height>
+			<texture border="0,0,0,3">HomeSubEnd.png</texture>
+		</control>
+	</include>
+		<include name="HomeAddonItemsVideos">
+		<item>
+			<label></label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=Films &amp; Series&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FFilms%20%26%20Series&amp;sf_options=fanart%3DNULL%26_options_sf&quot;,return)</onclick>
+			<icon>special://skin/stuff/filmsseriesNEW.png</icon>
+			<thumb>-</thumb>
+			<visible>!Skin.HasSetting(favourite1)</visible>
+		</item>
+		<item>
+			<label>$INFO[Skin.String(CustomFavourite1.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite1.Path)]</onclick>
+			<icon>$INFO[Skin.String(CustomFavourite1.icon)]</icon>
+			<thumb>$INFO[Skin.String(Home_Custom_Back_Favourite1_Folder)]</thumb>
+			<visible>Skin.HasSetting(favourite1)</visible>
+		</item>	
+		<item>
+			<label></label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=Kids&amp;mode=400&amp;path=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FKids&quot;,return)</onclick>
+			<icon>special://skin/stuff/kidsNEW.png</icon>
+			<thumb>-</thumb>
+			<visible>!Skin.HasSetting(favourite2)</visible>
+		</item>
+		<item>
+			<label >$INFO[Skin.String(CustomFavourite2.Label)]</label>
+			<onclick >$INFO[Skin.String(CustomFavourite2.Path)]</onclick>
+			<icon >$INFO[Skin.String(CustomFavourite2.icon)]</icon>
+			<thumb >$INFO[Skin.String(Home_Custom_Back_Favourite2_Folder)]</thumb>
+			<visible>Skin.HasSetting(favourite2)</visible>
+		</item>
+		<item>
+			<label></label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=Sport&amp;mode=400&amp;path=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FSport&quot;,return)</onclick>
+			<icon>special://skin/stuff/sportNEW.png</icon>
+			<thumb>-</thumb>
+			<visible>!Skin.HasSetting(favourite3)</visible>
+		</item>
+		<item>
+			<label>$INFO[Skin.String(CustomFavourite3.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite3.Path)]</onclick>
+			<icon>$INFO[Skin.String(CustomFavourite3.icon)]</icon>
+			<thumb>$INFO[Skin.String(Home_Custom_Back_Favourite3_Folder)]</thumb>
+			<visible>Skin.HasSetting(favourite3)</visible>
+		</item>
+		<item>
+			<label></label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=LiveTV&amp;mode=400&amp;path=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FLiveTV&quot;,return)</onclick>			<icon>special://skin/stuff/livetvNEW.png</icon>
+			<thumb>-</thumb>
+			<visible>!Skin.HasSetting(favourite4)</visible>
+		</item>
+		<item>
+			<label>$INFO[Skin.String(CustomFavourite4.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite4.Path)]</onclick>
+			<icon>$INFO[Skin.String(CustomFavourite4.icon)]</icon>
+			<thumb>$INFO[Skin.String(Home_Custom_Back_Favourite4_Folder)]</thumb>
+			<visible>Skin.HasSetting(favourite4)</visible>
+		</item>
+		<item>
+			<label></label>
+			<onclick>ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=Playlists&amp;mode=400&amp;path=special%3A%2F%2Fhome%2Fuserdata%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%2FPlaylists&quot;,return)</onclick>
+			<icon>special://skin/stuff/playlistsNEW.png</icon>
+			<thumb>-</thumb>
+			<visible>!Skin.HasSetting(favourite5)</visible>
+		</item>
+		<item>
+			<label>$INFO[Skin.String(CustomFavourite5.Label)]</label>
+			<onclick>$INFO[Skin.String(CustomFavourite5.Path)]</onclick>
+			<icon>$INFO[Skin.String(CustomFavourite5.icon)]</icon>
+			<thumb>$INFO[Skin.String(Home_Custom_Back_Favourite5_Folder)]</thumb>
+			<visible>Skin.HasSetting(favourite5)</visible>
+
+		</item>
+
+	</include>
+	<include name="HomeAddonItemsMusic">
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeMusicButton1))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeMusicButton1)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeMusicButton1))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeMusicButton1))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeMusicButton2))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeMusicButton2)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeMusicButton2))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeMusicButton2))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeMusicButton3))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeMusicButton3)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeMusicButton3))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeMusicButton3))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeMusicButton4))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeMusicButton4)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeMusicButton4))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeMusicButton4))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeMusicButton5))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeMusicButton5)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeMusicButton5))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeMusicButton5))</visible>
+		</item>
+	</include>
+	<include name="HomeAddonItemsPictures">
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomePictureButton1))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomePictureButton1)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomePictureButton1))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomePictureButton1))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomePictureButton2))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomePictureButton2)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomePictureButton2))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomePictureButton2))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomePictureButton3))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomePictureButton3)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomePictureButton3))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomePictureButton3))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomePictureButton4))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomePictureButton4)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomePictureButton4))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomePictureButton4))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomePictureButton5))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomePictureButton5)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomePictureButton5))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomePictureButton5))</visible>
+		</item>
+	</include>
+	<include name="HomeAddonItemsPrograms">
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeProgramButton1))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeProgramButton1)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeProgramButton1))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeProgramButton1))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeProgramButton2))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeProgramButton2)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeProgramButton2))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeProgramButton2))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeProgramButton3))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeProgramButton3)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeProgramButton3))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeProgramButton3))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeProgramButton4))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeProgramButton4)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeProgramButton4))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeProgramButton4))</visible>
+		</item>
+		<item>
+			<label>$INFO[system.addontitle(Skin.String(HomeProgramButton5))]</label>
+			<onclick>RunAddon($INFO[Skin.String(HomeProgramButton5)])</onclick>
+			<icon>$INFO[system.addonicon(Skin.String(HomeProgramButton5))]</icon>
+			<thumb>-</thumb>
+			<visible>!IsEmpty(Skin.String(HomeProgramButton5))</visible>
+		</item>
+	</include>
+</includes>
