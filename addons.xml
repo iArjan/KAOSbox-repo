@@ -331,7 +331,7 @@
 
 <addon
   id="skin.kaosbox.helix"
-  version="3.0.2"
+  version="3.0.3"
   name="KAOSbox skin"
   provider-name="KAOSbox">
   <requires>
