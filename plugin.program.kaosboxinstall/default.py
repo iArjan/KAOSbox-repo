@@ -30,23 +30,23 @@ H = 'http://'
 EXCLUDES = ['plugin.program.kaosboxinstall','script.module.addon.common','repository.kaosbox2']
 
 def INDEX():
-    addDir('KAOSbox Installeren',BASEURL,2,ART+'kaosboxdownload.jpg',FANART,'')
-    addDir('Schone Installatie (Fabrieksinstellingen)','url',6,ART+'kaosboxschoon.jpg',FANART,'')
-    addDir('KAOSbox Fixes/Downloads en Goodies',BASEURL,3,ART+'kaosboxfix.jpg',FANART,'')
-    addDir('Over KAOSbox',BASEURL,8,ART+'kaosboxinfo.jpg',FANART,'')
+    addDir('KAOSbox Installeren',BASEURL,2,ART+'kaosboxdownload.png',FANART,'')
+    addDir('Schone Installatie (Fabrieksinstellingen)','url',6,ART+'kaosboxschoon.png',FANART,'')
+    addDir('KAOSbox Fixes/Downloads en Goodies',BASEURL,3,ART+'kaosboxfix.png',FANART,'')
+    addDir('Over KAOSbox',BASEURL,8,ART+'kaosboxinfo.png',FANART,'')
     setView('movies', 'MAIN')
 
 def BUILDMENU():
-    addDir('Installatie KAOSbox','https://www.dropbox.com/s/mmh1yq2vfnfew7z/standard.zip?dl=1',5,ART+'kaosboxdownload.jpg',FANART,'')
+    addDir('Installatie KAOSbox','https://www.dropbox.com/s/mmh1yq2vfnfew7z/standard.zip?dl=1',5,ART+'kaosboxdownload.png',FANART,'')
     setView('movies', 'MAIN')
-    addDir('Installatie XXX Pack (+18)','https://www.dropbox.com/s/u4amu1o382jwpbz/xxx.zip?dl=1',5,ART+'kaosboxdownload.jpg',FANART,'')
+    addDir('Installatie XXX Pack (+18)','https://www.dropbox.com/s/u4amu1o382jwpbz/xxx.zip?dl=1',5,ART+'kaosboxdownload.png',FANART,'')
     setView('movies', 'MAIN')
 
 def MAINTENANCE():
     link = OPEN_URL('http://www.kaosbox.tv/stuff.lst').replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
-        addDir(name,url,5,ART+'kaosboxdownload.jpg',FANART,description)
+        addDir(name,url,5,ART+'kaosboxdownload.png',FANART,description)
     setView('movies', 'MAIN')
 
 
