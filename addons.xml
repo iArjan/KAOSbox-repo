@@ -300,62 +300,6 @@
 	</extension>
 </addon>
 
-<addon id="repository.BlazeRepo" name="Blazetamer's Repository" version="3.2" provider-name="Blazetamer">
-<extension point="xbmc.addon.repository" name="Blaztamer's Addon Repository">
-    <dir>
-	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-    </dir>
-    <dir>
-            <info compressed="false">https://offshoregit.com/Blazetamer/repo/raw/master/addons.xml</info>
-            <checksum>https://offshoregit.com/Blazetamer/repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://offshoregit.com/Blazetamer/repo/raw/master/zips</datadir>
-    </dir>
-
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Install all of Blazetamer's Addons</summary>
-<description>Download and install addons from Blazetamer.......For Official Support Visit TVADDONS.AG</description>
-<platform>all</platform>
-</extension>
-</addon>
-
-<addon id="repository.exodus" version="1.0.0" name="Exodus repository" provider-name="l*m*d*">
-	<extension point="xbmc.addon.repository" name="Exodus repository">
-		<dir>
-			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://offshoregit.com/exodus/addons.xml</info>
-		<checksum>https://offshoregit.com/exodus/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/exodus/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus repository</summary>
-		<description lang="en">Exodus repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.filmkodi.com" name="Filmkodi.com repository - MRKNOW" version="2.1.0" provider-name="Mrknow">
-	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
-		<info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
-		<checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodi.filmkodi.com/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
-		<summary lang="pl">Zainstaluj wtyczki z filmkodi.com</summary>
-		<description lang="en">Add-ons from filmkodi.com (mrknow.pl) repository.</description>
-		<description lang="pl">Wtyczki z nieoficjalnego, repozytorium polskiego mrknow.pl..</description>
-		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
-		<disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny, wtyczki tworzone przez pasjonatów, .</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
     <addon id="repository.kaosbox2" name="KAOSbox Repo" version="2.0.1" provider-name="KAOSbox">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -371,33 +315,6 @@
             <description>Download and install addons for the KAOSbox (www.kaosbox.tv)</description>
             <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
-	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
-		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Mucky Ducks Repo</summary>
-		<description>Download And Install Addons Developed By Mucky Duck And Various Other Developers </description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repo.natko1412" name="natko1412 repo" version="2.0.0" provider-name="natko1412">
-<extension point="xbmc.addon.repository" name="Natko's Addon Repository">
-<info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
-<checksum>https://offshoregit.com/natko1412/addons.xml.md5</checksum>
-<datadir zip="true">https://offshoregit.com/natko1412/zips/</datadir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>Install all of Natko's Addons</summary>
-<description>Download and install addons by natko1412. For support visit XBMC thread on forum.hr</description>
-<platform>all</platform>
-</extension>
 </addon>
 
 <addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
@@ -418,39 +335,6 @@
 		<description>Go though the plugins and see what you like</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.tknorris.beta" name="tknorris Beta Testing Repository" version="1.0.5" provider-name="tknorris">
-    <extension point="xbmc.addon.repository" name="tknorris beta testing repository">
-	    <dir>
-	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	    </dir>
-        <dir>
-            <info compressed="false">http://github.com/norris-addons/tknorris-beta-repo/raw/master/addons.xml</info>
-            <checksum>http://github.com/norris-addons/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">http://github.com/norris-addons/tknorris-beta-repo/raw/master/zips/</datadir>
-        </dir>
-        <info compressed="false">http://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml</info>
-        <checksum>http://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://github.com/tknorris/tknorris-beta-repo/raw/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>This is used ONLY for beta testing</summary>
-        <description>Beta testing only!!!
-DO NOT INSTALL UNLESS YOU WISH TO PARTICIPATE IN BETA TESTING
-
-Addons Included
-    - 1Channel (Beta)
-    - 1Channel Thempak
-    - SALTS (Beta)
-    - SALTS Themepak
-    - Trakt (Beta)
-    - Trakt List Manager (Alpha)
-        </description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="script.module.trakt"
