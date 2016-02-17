@@ -317,6 +317,25 @@
     </extension>
 </addon>
 
+<addon id="script.kaosboxtools"
+       name="KAOSbox Tools"
+       version="1.0.1"
+       provider-name="KAOSbox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="service.subtitles.addic7ed" version="5.0.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">KAOSbox Tools</summary>
+      <description lang="en">Tools for the KAOSbox</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
 <addon id="script.module.trakt"
        name="trakt.py"
        version="2.5.1"
