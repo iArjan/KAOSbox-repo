@@ -18,3 +18,13 @@
 
 [B]Version 2.5[/B]
 - Back to github
+
+
+[B]Version 2.6[/B]
+- Icon Updated
+
+[B]Version 2.7[/B]
+- removed shahidbc/glarab
+
+[B]Version 2.8[/B]
+- moved to offshore
