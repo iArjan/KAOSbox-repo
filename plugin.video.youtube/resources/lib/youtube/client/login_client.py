@@ -19,16 +19,16 @@ class LoginClient(object):
         'youtube-for-kodi-quota': {
             'token-allowed': False,
             'system': 'All',
-            'key': 'AIzaSyA7v1QOHz8Q4my5J8uGSpr0zRrntRjnMmk',
-            'id': '597640352045-7um2gr1v5rgobm5bf07ebesm3er48286.apps.googleusercontent.com',
-            'secret': 'VmyQ12KkJ_N3yegu4Y-VGCXd'
+            'key': 'AIzaSyDJMok9h2gj-80HI1fo8FTwAEULJiJLge0',
+            'id': '417712220326-jc05u5q0ffiroqs6jsdvluq83l15vn2h.apps.googleusercontent.com',
+            'secret': 'biwx33-O6zyWYoSnZQC4gw4g'
         },
         'youtube-for-kodi-fallback': {
             'token-allowed': False,
             'system': 'Fallback!',
-            'key': 'AIzaSyBEvxICg_E5g8mfndYjWHH4WEDF2fN_zXM',
-            'id': '705000440035-f7v8mhn75udt6l20r75ko7f15c39ns1c.apps.googleusercontent.com',
-            'secret': 'XeLKD8o_mdzEBDy9Nw5KMKbr'
+            'key': 'AIzaSyByellzrURGG8Z9KnzdXwZAd7Kmk1jziLA',
+            'id': '417712220326-9fnk9igk0agqrbihjj82jv4la1b9bsbe.apps.googleusercontent.com',
+            'secret': 'o7PQtV1GjffqaXoBGsqhYAfd'
         },
         'youtube-for-kodi-12': {
             'system': 'Frodo',
@@ -50,50 +50,17 @@ class LoginClient(object):
         },
         'youtube-for-kodi-15': {
             'system': 'Isengard',
-            'key': 'AIzaSyBAdxZCHbeJwnQ7dDZQJNfcaF46MdqJ24E',
-            'id': '988476436049-l9sfcivj4jtm1f2ppcvvbgsli6kvtis0.apps.googleusercontent.com',
-            'secret': '_BEENv-a3-egDz_QKo5pGZCK'
+            'key': 'AIzaSyCb87bJklCXXmhxfaToEtdjyuqlsff54dg',
+            'id': '1024430369369-holcfk6qdnaup7612a8kos7ladv5l986.apps.googleusercontent.com',
+            'secret': 'Y75MWnWBp5N7B3oozNzEiSAv'
         },
         'youtube-for-kodi-16': {
             'system': 'Jarvis',
-            'key': 'AIzaSyBbgC4PZ2_hUdqqX7MIgdg2fK1nohv1jrw',
-            'id': '17932591024-8jruv1v7s78gipo7s17c91bnk26rqgpf.apps.googleusercontent.com',
-            'secret': 'bK9T234WWhqzYdcQLif1L35K'
+            'key': 'AIzaSyA6NbAYs_9s6FcdpX9qBT2R0r36upvj27o',
+            'id': '1024430369369-vfs1d0a18bv1241b4k84nb6k6hph04qd.apps.googleusercontent.com',
+            'secret': '8R7q4OBkkcKCEusZ9VGBp09s'
         }
     }
-
-    CREDENTIALS_POOL = [
-        {
-            'system': 'Kodi YouTube Pool 1',
-            'key': 'kodi-youtube-pool-1',
-            'id': '761989675853-s2fmvsdjk4f57hh52phne3288pl3dd25.apps.googleusercontent.com',
-            'secret': 'i_3LGLwtSYJh2klLNNzG1lJG'
-        },
-        {
-            'system': 'Kodi YouTube Pool 2',
-            'key': 'kodi-youtube-pool-2',
-            'id': '313453013574-f7lfuf8k1tefptiv8n850bgqcbjc2dr3.apps.googleusercontent.com',
-            'secret': 'fMnkhokm0Fv5MZluc5BsXeIv'
-        },
-        {
-            'system': 'Kodi YouTube Pool 3',
-            'key': 'kodi-youtube-pool-3',
-            'id': '1081682822181-1a450qlirkjjfa8v3hgskhrdbg76c9r7.apps.googleusercontent.com',
-            'secret': 'wqJfNZBHf_xTi3dGgUpf2eaM'
-        },
-        {
-            'system': 'Kodi YouTube Pool 4',
-            'key': 'kodi-youtube-pool-4',
-            'id': '669595706732-5mdckd0b6dpbmoigg3hq6ac5u98hqiff.apps.googleusercontent.com',
-            'secret': 'Dtx20RiLmE5zTARelXma0pom'
-        },
-        {
-            'system': 'Kodi YouTube Pool 5',
-            'key': 'kodi-youtube-pool-5',
-            'id': '147802564020-8h2bs3r0e9ofoid9ame4pa1tu44k80n7.apps.googleusercontent.com',
-            'secret': 'LlFMl7WSO8CE7Lq5Yj_Ru11t'
-        }
-    ]
 
     def __init__(self, config={}, language='en-US', access_token='', access_token_tv=''):
         if not config:
