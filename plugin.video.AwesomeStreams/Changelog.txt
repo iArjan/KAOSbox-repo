@@ -1,0 +1,6 @@
+V1.0.0 Intial release
+V1.0.1 Small changes
+V1.0.2 typos fixed
+V1.03 Movies channels added
+V1.04 Movies Added Movies channels removed
+V1.05 Movie channels added
