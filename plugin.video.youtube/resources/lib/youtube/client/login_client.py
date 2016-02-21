@@ -11,9 +11,9 @@ class LoginClient(object):
     CONFIGS = {
         'youtube-tv': {
             'system': 'All',
-            'key': 'AIzaSyAd-YEOqZz9nXVzGtn3KWzYLbLaajhqIDA',
-            'id': '861556708454-d6dlm3lh05idd8npek18k6be8ba3oc68.apps.googleusercontent.com',
-            'secret': 'SboVhoG9s0rNafixCSGGKXAT'
+            'key': 'AIzaSyAddU4mfo8ItvKdSYBqT2gB7X7qIdw-JYI',
+            'id': '935594117778-tsq2mkarfiqh67dieu8cd5trobj0p67h.apps.googleusercontent.com',
+            'secret': 'MUALjNdkMBkSodc7pO0pk9gO'
         },
         # API KEY for search and channel infos. These should work most of the time without login to safe some quota
         'youtube-for-kodi-quota': {
@@ -32,21 +32,21 @@ class LoginClient(object):
         },
         'youtube-for-kodi-12': {
             'system': 'Frodo',
-            'key': 'AIzaSyB6-pMlWO_XmgdM15VKGeLH4QsipdToBas',
-            'id': '131835494776-s0ef9jorci9vl0kaa5sqslupqvlku6ej.apps.googleusercontent.com',
-            'secret': 'Fz9nnfVGoH6jiLc0iefvzZYM'
+            'key': 'AIzaSyBPlYv99k-w_Bjs0KZ3Jnrm1mhCZdvTqns',
+            'id': '543953557475-eeijdkku96q0dnrl935r7nembb5fd4lc.apps.googleusercontent.com',
+            'secret': 'Os3HY373w7s3JZasXeJ1I54r'
         },
         'youtube-for-kodi-13': {
             'system': 'Gotham',
-            'key': 'AIzaSyB6-pMlWO_XmgdM15VKGeLH4QsipdToBas',
-            'id': '131835494776-s0ef9jorci9vl0kaa5sqslupqvlku6ej.apps.googleusercontent.com',
-            'secret': 'Fz9nnfVGoH6jiLc0iefvzZYM'
+            'key': 'AIzaSyBPlYv99k-w_Bjs0KZ3Jnrm1mhCZdvTqns',
+            'id': '543953557475-eeijdkku96q0dnrl935r7nembb5fd4lc.apps.googleusercontent.com',
+            'secret': 'Os3HY373w7s3JZasXeJ1I54r'
         },
         'youtube-for-kodi-14': {
             'system': 'Helix',
-            'key': 'AIzaSyCOxb_JvsI1-ZneJ2SXTkwZvW3fdtaR3bg',
-            'id': '45906745725-ucn38a9eumqcgfkmv14th17s0eq8kt5f.apps.googleusercontent.com',
-            'secret': 'sK6GK-ZhzgXWehCdjaGybHRi'
+            'key': 'AIzaSyBPlYv99k-w_Bjs0KZ3Jnrm1mhCZdvTqns',
+            'id': '543953557475-eeijdkku96q0dnrl935r7nembb5fd4lc.apps.googleusercontent.com',
+            'secret': 'Os3HY373w7s3JZasXeJ1I54r'
         },
         'youtube-for-kodi-15': {
             'system': 'Isengard',
