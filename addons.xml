@@ -17,7 +17,7 @@
 
 <addon id="plugin.video.AwesomeStreams"
        name="AwesomeStreams"
-       version="1.0.6"
+       version="1.0.9"
        provider-name="AwesomeStreams">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

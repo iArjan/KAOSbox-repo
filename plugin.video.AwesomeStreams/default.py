@@ -855,14 +855,14 @@ def getItems(items,fanart):
                 addon_log('EPG Error')
             try:
                 url = []
-                if len(item('link')) >0:
-#                    print 'item link', item('link')
-                    for i in item('link'):
+                if len(item('linkas')) >0:
+#                    print 'item link', item('linkas')
+                    for i in item('linkas'):
                         if not i.string == None:
                             url.append(i.string)
                     
-                elif len(item('sportsdevil')) >0:
-                    for i in item('sportsdevil'):
+                elif len(item('sportsdevilas')) >0:
+                    for i in item('sportsdevilas'):
                         if not i.string == None:
                             sportsdevil = 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=' +i.string
                             referer = item('referer')[0].string
