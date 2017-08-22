@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.kaosboxinstall" name="KAOSbox Install" version="3.0.2" provider-name="KAOSbox">
-  <requires>
-    	<import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">KAOSbox Install</summary>
-    <description lang="en">Installeer KAOSbox, Fixes, Add-ons en meer. Voor diverse GRATIS images - kijk op www.kaosbox.tv</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="plugin.video.AwesomeStreams"
        name="AwesomeStreams"
@@ -331,41 +317,6 @@
 	</extension>
 </addon>
 
-    <addon id="repository.kaosbox2" name="KAOSbox Repo" version="2.0.1" provider-name="KAOSbox">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="KAOSbox Repo">
-            <info compressed="false">https://raw.githubusercontent.com/KAOSbox/KAOSbox-Repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/KAOSbox/KAOSbox-Repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/KAOSbox/KAOSbox-Repo/master/zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Official New Repo for the KAOSbox (www.kaosbox.tv)</summary>
-            <description>Download and install addons for the KAOSbox (www.kaosbox.tv)</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="script.kaosboxtools"
-       name="KAOSbox Tools"
-       version="1.0.1"
-       provider-name="KAOSbox">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="service.subtitles.addic7ed" version="5.0.1" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-      <summary lang="en">KAOSbox Tools</summary>
-      <description lang="en">Tools for the KAOSbox</description>
-      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
-</addon>
 
 <addon id="script.module.trakt"
        name="trakt.py"
@@ -416,52 +367,5 @@
     </extension>
 </addon>
 
-<addon
-  id="skin.kaosbox.beta"
-  version="1.1.1"
-  name="KAOSbox Beta skin"
-  provider-name="KAOSbox">
-  <requires>
-    <import addon="xbmc.gui" version="5.10.0"/>
-    <import addon="script.artistslideshow" version="1.8.0"/>
-    <import addon="script.favourites" version="6.0.2"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="textures.xbt"
-    debugging="false"
-    effectslowdown="0.00">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-   <summary lang="en">KAOSbox skin</summary>
-  <description lang="en">Default skin for KAOSbox</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 
-<addon
-  id="skin.kaosbox.helix"
-  version="3.0.4"
-  name="KAOSbox skin"
-  provider-name="KAOSbox">
-  <requires>
-    <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.artistslideshow" version="1.8.0"/>
-    <import addon="service.library.data.provider" version="0.0.6"/>
-    <import addon="script.favourites" version="5.0.2"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="textures.xbt"
-    debugging="false"
-    effectslowdown="0.00">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-   <summary lang="en">KAOSbox skin</summary>
-  <description lang="en">Default skin for KAOSbox</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 </addons>
