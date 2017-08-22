@@ -1,7 +1,7 @@
 Welkom bij KAOSbox!
 ===================
-De **gratis** no-nonsense plug en play media systeem voor je Raspberry Pi, Hummingboard/Cubox-i, Android en Windows mediabox!
-Kijk op [kaosbox.tv mediabox](https://www.kaosbox.tv) voor meer informatie & downloads.
+Kopie van de originele KAOSbox-repo. Deze add-ons zijn niet gemaakt door mij en worden ook niet meer geüpdatet. 
+Meer informatie:
 
-----------
-![KAOSbox](https://www.kaosbox.tv/wp-content/uploads/2015/07/kaosboxtv.png)
+- Zowerktkodi.nl
+- Kodi-forum.nl
